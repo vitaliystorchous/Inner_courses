@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f848e594-c3f1-473e-82ba-17339c007df0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/homework3/AddingToCartTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/homework3/DriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/drivers/IEDriverServer.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/drivers/geckodriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/drivers/msedgedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Sandbox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homework4/appmanager/DriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homework4/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homework4/tests/DeleteProductsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homework4/tests/ProductCreationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -48,60 +48,91 @@
       <recent name="D:\github repositories\Inner_courses\src\test\resources\drivers" />
       <recent name="D:\github repositories\Inner_courses\src\test\resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="homework4" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\github repositories\Inner_courses" />
       <recent name="D:\github repositories\Inner_courses\src\test\resources\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AddingToCartTest">
-    <configuration name="AddingToCartTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework3.AddingToCartTest" />
+  <component name="RunManager" selected="TestNG.ProductCreationTest">
+    <configuration name="Sandbox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sandbox" />
+      <module name="Inner_courses" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/github repositories/Inner_courses/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Inner_courses" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteProductsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Inner_courses" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework3.*" />
+          <option name="PATTERN" value="homework4.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="homework4.tests" />
+      <option name="MAIN_CLASS_NAME" value="homework4.tests.DeleteProductsTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework2.LoginTest" />
+    <configuration name="ProductCreationTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Inner_courses" />
-      <option name="VM_PARAMETERS" value="-enableassertions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework4.appmanager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homework4" />
+      <option name="MAIN_CLASS_NAME" value="homework4.tests.ProductCreationTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogoutTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework2.LogoutTest" />
+    <configuration name="Sandbox" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Inner_courses" />
-      <option name="VM_PARAMETERS" value="-enableassertions" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TabsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework2.TabsTest" />
-      <module name="Inner_courses" />
-      <option name="VM_PARAMETERS" value="-enableassertions" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Sandbox" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LoginTest" />
-      <item itemvalue="Application.TabsTest" />
-      <item itemvalue="Application.LogoutTest" />
-      <item itemvalue="Application.AddingToCartTest" />
+      <item itemvalue="TestNG.D:/github repositories/Inner_courses/testng.xml" />
+      <item itemvalue="Application.Sandbox" />
+      <item itemvalue="TestNG.Sandbox" />
+      <item itemvalue="TestNG.ProductCreationTest" />
+      <item itemvalue="TestNG.DeleteProductsTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AddingToCartTest" />
-        <item itemvalue="Application.LogoutTest" />
-        <item itemvalue="Application.LoginTest" />
-        <item itemvalue="Application.TabsTest" />
+        <item itemvalue="TestNG.ProductCreationTest" />
+        <item itemvalue="TestNG.DeleteProductsTest" />
+        <item itemvalue="TestNG.D:/github repositories/Inner_courses/testng.xml" />
+        <item itemvalue="Application.Sandbox" />
+        <item itemvalue="TestNG.Sandbox" />
       </list>
     </recent_temporary>
   </component>
@@ -127,46 +158,54 @@
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
     <state x="-1097" y="354" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589183166344" />
-    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1588944261352">
+    <state x="-1035" y="237" key="#com.intellij.ide.util.MemberChooser" timestamp="1589215094557">
+      <screen x="-1680" y="38" width="1680" height="1010" />
+    </state>
+    <state x="-1035" y="237" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589215094557" />
+    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1589202260137">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1588944261352" />
-    <state width="1637" height="336" key="GridCell.Tab.0.bottom" timestamp="1589186094970">
+    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589202260137" />
+    <state width="1637" height="208" key="GridCell.Tab.0.bottom" timestamp="1589226456753">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state width="1637" height="336" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589186094970" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1588920382014" />
-    <state width="1637" height="336" key="GridCell.Tab.0.center" timestamp="1589186094970">
+    <state width="1637" height="208" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589226456753" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589205025446" />
+    <state width="1637" height="208" key="GridCell.Tab.0.center" timestamp="1589226456752">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state width="1637" height="336" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589186094970" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1588920382014" />
-    <state width="1637" height="336" key="GridCell.Tab.0.left" timestamp="1589186094970">
+    <state width="1637" height="208" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589226456752" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589205025446" />
+    <state width="1637" height="208" key="GridCell.Tab.0.left" timestamp="1589226456752">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state width="1637" height="336" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589186094970" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1588920382014" />
-    <state width="1637" height="336" key="GridCell.Tab.0.right" timestamp="1589186094970">
+    <state width="1637" height="208" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589226456752" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589205025446" />
+    <state width="1637" height="208" key="GridCell.Tab.0.right" timestamp="1589226456753">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state width="1637" height="336" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589186094970" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1588920382014" />
-    <state width="1637" height="336" key="GridCell.Tab.1.bottom" timestamp="1589186094971">
+    <state width="1637" height="208" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589226456753" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589205025446" />
+    <state width="1637" height="348" key="GridCell.Tab.1.bottom" timestamp="1589205277402">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state width="1637" height="336" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589186094971" />
-    <state width="1637" height="336" key="GridCell.Tab.1.center" timestamp="1589186094970">
+    <state width="1637" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589205277402" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589205025227" />
+    <state width="1637" height="348" key="GridCell.Tab.1.center" timestamp="1589205277402">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state width="1637" height="336" key="GridCell.Tab.1.center/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589186094970" />
-    <state width="1637" height="336" key="GridCell.Tab.1.left" timestamp="1589186094970">
+    <state width="1637" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589205277402" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589205025227" />
+    <state width="1637" height="348" key="GridCell.Tab.1.left" timestamp="1589205277402">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state width="1637" height="336" key="GridCell.Tab.1.left/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589186094970" />
-    <state width="1637" height="336" key="GridCell.Tab.1.right" timestamp="1589186094970">
+    <state width="1637" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589205277402" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589205025227" />
+    <state width="1637" height="348" key="GridCell.Tab.1.right" timestamp="1589205277402">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state width="1637" height="336" key="GridCell.Tab.1.right/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589186094970" />
+    <state width="1637" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589205277402" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589205025227" />
     <state x="-1337" y="189" key="SettingsEditor" timestamp="1589184881604">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>

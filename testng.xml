@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+    <test name="test1" preserve-order="true">
+        <classes>
+            <class name="homework4.tests.ProductCreationTest">
+                <methods>
+                    <include name="createProductTest"/>
+                    <include name="checkProductPresenceTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
