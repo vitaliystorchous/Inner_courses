@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f848e594-c3f1-473e-82ba-17339c007df0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/homework3/AddingToCartTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homework3/DriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/drivers/IEDriverServer.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/drivers/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/drivers/msedgedriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework2/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LogoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework2/LogoutTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TabsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework2/TabsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +26,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1bZG7oJdqEy9r5uXSRUwSA3OioP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -32,17 +37,35 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/drivers" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github repositories\Inner_courses\src\test\resources\drivers" />
+      <recent name="D:\github repositories\Inner_courses\src\test\resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\github repositories\Inner_courses\src\test\resources\drivers" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\github repositories\Inner_courses\src\test\resources" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.LogoutTest">
+  <component name="RunManager" selected="Application.AddingToCartTest">
+    <configuration name="AddingToCartTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework3.AddingToCartTest" />
+      <module name="Inner_courses" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework2.LoginTest" />
       <module name="Inner_courses" />
@@ -71,9 +94,11 @@
       <item itemvalue="Application.LoginTest" />
       <item itemvalue="Application.TabsTest" />
       <item itemvalue="Application.LogoutTest" />
+      <item itemvalue="Application.AddingToCartTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AddingToCartTest" />
         <item itemvalue="Application.LogoutTest" />
         <item itemvalue="Application.LoginTest" />
         <item itemvalue="Application.TabsTest" />
@@ -98,26 +123,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1588920097113" />
+    <state x="-1097" y="354" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589183166344">
+      <screen x="-1680" y="38" width="1680" height="1010" />
+    </state>
+    <state x="-1097" y="354" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589183166344" />
     <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1588944261352">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1588944261352" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1588920382014">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1637" height="336" key="GridCell.Tab.0.bottom" timestamp="1589186094970">
+      <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
+    <state width="1637" height="336" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589186094970" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1588920382014" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1588920382014">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1637" height="336" key="GridCell.Tab.0.center" timestamp="1589186094970">
+      <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
+    <state width="1637" height="336" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589186094970" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1588920382014" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1588920382014">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1637" height="336" key="GridCell.Tab.0.left" timestamp="1589186094970">
+      <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
+    <state width="1637" height="336" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589186094970" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1588920382014" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1588920382014">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1637" height="336" key="GridCell.Tab.0.right" timestamp="1589186094970">
+      <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
+    <state width="1637" height="336" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589186094970" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1588920382014" />
+    <state width="1637" height="336" key="GridCell.Tab.1.bottom" timestamp="1589186094971">
+      <screen x="-1680" y="38" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="336" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589186094971" />
+    <state width="1637" height="336" key="GridCell.Tab.1.center" timestamp="1589186094970">
+      <screen x="-1680" y="38" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="336" key="GridCell.Tab.1.center/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589186094970" />
+    <state width="1637" height="336" key="GridCell.Tab.1.left" timestamp="1589186094970">
+      <screen x="-1680" y="38" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="336" key="GridCell.Tab.1.left/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589186094970" />
+    <state width="1637" height="336" key="GridCell.Tab.1.right" timestamp="1589186094970">
+      <screen x="-1680" y="38" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="336" key="GridCell.Tab.1.right/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589186094970" />
+    <state x="-1337" y="189" key="SettingsEditor" timestamp="1589184881604">
+      <screen x="-1680" y="38" width="1680" height="1010" />
+    </state>
+    <state x="-1337" y="189" key="SettingsEditor/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589184881604" />
     <state x="668" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1588944254469">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
