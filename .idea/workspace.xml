@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f848e594-c3f1-473e-82ba-17339c007df0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LogoutTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TabsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MyClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework2/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LogoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework2/LogoutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TabsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework2/TabsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +44,7 @@
   </component>
   <component name="RunManager" selected="Application.LogoutTest">
     <configuration name="LoginTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LoginTest" />
+      <option name="MAIN_CLASS_NAME" value="homework2.LoginTest" />
       <module name="Inner_courses" />
       <option name="VM_PARAMETERS" value="-enableassertions" />
       <method v="2">
@@ -55,7 +52,7 @@
       </method>
     </configuration>
     <configuration name="LogoutTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LogoutTest" />
+      <option name="MAIN_CLASS_NAME" value="homework2.LogoutTest" />
       <module name="Inner_courses" />
       <option name="VM_PARAMETERS" value="-enableassertions" />
       <method v="2">
@@ -63,7 +60,7 @@
       </method>
     </configuration>
     <configuration name="TabsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TabsTest" />
+      <option name="MAIN_CLASS_NAME" value="homework2.TabsTest" />
       <module name="Inner_courses" />
       <option name="VM_PARAMETERS" value="-enableassertions" />
       <method v="2">
@@ -101,30 +98,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1588920097113" />
-    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1588832120010">
+    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1588944261352">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1588832120010" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1588920137385">
+    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1588944261352" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1588920382014">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1588920137385" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1588920137385">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1588920382014" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1588920382014">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1588920137385" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1588920137384">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1588920382014" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1588920382014">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1588920137384" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1588920137385">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1588920382014" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1588920382014">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1588920137385" />
-    <state x="668" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1588832041790">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1588920382014" />
+    <state x="668" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1588944254469">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="668" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1588832041790" />
+    <state x="668" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1588944254469" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Inner_courses$MyClass.ic" NAME="MyClass Coverage Results" MODIFIED="1588917797299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
