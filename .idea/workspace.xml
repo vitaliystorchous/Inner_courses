@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f848e594-c3f1-473e-82ba-17339c007df0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Sandbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/homework4/appmanager/DriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/homework4/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/homework4/tests/DeleteProductsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/homework4/tests/ProductCreationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homework4/dataproviders/ProductsGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework4/tests/ProductCreationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework4/tests/ProductCreationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +53,7 @@
       <recent name="D:\github repositories\Inner_courses\src\test\resources\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ProductCreationTest">
+  <component name="RunManager" selected="TestNG.DeleteProductsTest">
     <configuration name="Sandbox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sandbox" />
       <module name="Inner_courses" />
@@ -64,10 +61,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/github repositories/Inner_courses/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D:/github repositories/Inner_courses/testng.xml (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Inner_courses" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/github repositories/Inner_courses/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Inner_courses" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -99,20 +113,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="homework4" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="homework4.tests" />
       <option name="MAIN_CLASS_NAME" value="homework4.tests.ProductCreationTest" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sandbox" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Inner_courses" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Sandbox" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -120,19 +131,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.D:/github repositories/Inner_courses/testng.xml" />
       <item itemvalue="Application.Sandbox" />
-      <item itemvalue="TestNG.Sandbox" />
+      <item itemvalue="TestNG.D:/github repositories/Inner_courses/testng.xml" />
       <item itemvalue="TestNG.ProductCreationTest" />
       <item itemvalue="TestNG.DeleteProductsTest" />
+      <item itemvalue="TestNG.D:/github repositories/Inner_courses/testng.xml (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ProductCreationTest" />
         <item itemvalue="TestNG.DeleteProductsTest" />
+        <item itemvalue="TestNG.D:/github repositories/Inner_courses/testng.xml (1)" />
         <item itemvalue="TestNG.D:/github repositories/Inner_courses/testng.xml" />
+        <item itemvalue="TestNG.ProductCreationTest" />
         <item itemvalue="Application.Sandbox" />
-        <item itemvalue="TestNG.Sandbox" />
       </list>
     </recent_temporary>
   </component>
@@ -150,9 +161,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588920097113">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="-1318" y="212" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589261554195">
+      <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
+    <state x="-1318" y="212" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589261554195" />
     <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1588920097113" />
     <state x="-1097" y="354" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589183166344">
       <screen x="-1680" y="38" width="1680" height="1010" />
@@ -162,57 +174,59 @@
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
     <state x="-1035" y="237" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589215094557" />
-    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1589202260137">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="-1032" y="309" key="FileChooserDialogImpl" timestamp="1589262975519">
+      <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
+    <state x="-1032" y="309" key="FileChooserDialogImpl/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589262975519" />
     <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589202260137" />
-    <state width="1637" height="208" key="GridCell.Tab.0.bottom" timestamp="1589226456753">
+    <state width="1637" height="215" key="GridCell.Tab.0.bottom" timestamp="1589263965795">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state width="1637" height="208" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589226456753" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589205025446" />
-    <state width="1637" height="208" key="GridCell.Tab.0.center" timestamp="1589226456752">
+    <state width="1637" height="215" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589263965795" />
+    <state width="1877" height="215" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589257411860" />
+    <state width="1637" height="215" key="GridCell.Tab.0.center" timestamp="1589263965795">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state width="1637" height="208" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589226456752" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589205025446" />
-    <state width="1637" height="208" key="GridCell.Tab.0.left" timestamp="1589226456752">
+    <state width="1637" height="215" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589263965795" />
+    <state width="1877" height="215" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589257411860" />
+    <state width="1637" height="215" key="GridCell.Tab.0.left" timestamp="1589263965795">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state width="1637" height="208" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589226456752" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589205025446" />
-    <state width="1637" height="208" key="GridCell.Tab.0.right" timestamp="1589226456753">
+    <state width="1637" height="215" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589263965795" />
+    <state width="1877" height="215" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589257411860" />
+    <state width="1637" height="215" key="GridCell.Tab.0.right" timestamp="1589263965795">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state width="1637" height="208" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589226456753" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589205025446" />
-    <state width="1637" height="348" key="GridCell.Tab.1.bottom" timestamp="1589205277402">
+    <state width="1637" height="215" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589263965795" />
+    <state width="1877" height="215" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589257411860" />
+    <state width="1637" height="348" key="GridCell.Tab.1.bottom" timestamp="1589226614823">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state width="1637" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589205277402" />
+    <state width="1637" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589226614823" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589205025227" />
-    <state width="1637" height="348" key="GridCell.Tab.1.center" timestamp="1589205277402">
+    <state width="1637" height="348" key="GridCell.Tab.1.center" timestamp="1589226614823">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state width="1637" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589205277402" />
+    <state width="1637" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589226614823" />
     <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589205025227" />
-    <state width="1637" height="348" key="GridCell.Tab.1.left" timestamp="1589205277402">
+    <state width="1637" height="348" key="GridCell.Tab.1.left" timestamp="1589226614823">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state width="1637" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589205277402" />
+    <state width="1637" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589226614823" />
     <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589205025227" />
-    <state width="1637" height="348" key="GridCell.Tab.1.right" timestamp="1589205277402">
+    <state width="1637" height="348" key="GridCell.Tab.1.right" timestamp="1589226614823">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state width="1637" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589205277402" />
+    <state width="1637" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589226614823" />
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589205025227" />
     <state x="-1337" y="189" key="SettingsEditor" timestamp="1589184881604">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
     <state x="-1337" y="189" key="SettingsEditor/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589184881604" />
-    <state x="668" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1588944254469">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="-1095" y="377" key="com.intellij.ide.util.TipDialog" timestamp="1589260506662">
+      <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
+    <state x="-1095" y="377" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589260506662" />
     <state x="668" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1588944254469" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">

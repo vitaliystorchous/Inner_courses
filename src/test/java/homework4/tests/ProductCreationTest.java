@@ -1,14 +1,15 @@
 package homework4.tests;
 
+import homework4.dataproviders.ProductsGenerator;
 import homework4.model.Product;
-import org.openqa.selenium.*;
+import org.openqa.selenium.By;
+import org.openqa.selenium.TimeoutException;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import java.io.File;
 import java.util.*;
@@ -16,51 +17,33 @@ import java.util.*;
 import static homework4.appmanager.DriverManager.getDriver;
 import static java.lang.Double.parseDouble;
 import static java.lang.Long.parseLong;
-import static java.lang.Math.round;
-import static org.apache.commons.lang3.RandomStringUtils.random;
-import static org.apache.commons.lang3.RandomUtils.nextDouble;
-import static org.apache.commons.lang3.RandomUtils.nextInt;
+import static java.util.Collections.sort;
 import static org.openqa.selenium.support.ui.ExpectedConditions.*;
+import static org.testng.Assert.assertEquals;
 
 public class ProductCreationTest {
 
     WebDriver wd;
     WebDriverWait wait;
 
-    public ProductCreationTest() {
-        wd = getDriver("chrome");
+    @Parameters({"browser", "email", "password"})
+    @BeforeTest
+    public void login(String browser, String email, String password) {
+        wd = getDriver(browser);
         wd.manage().window().maximize();
         wait = new WebDriverWait(wd, 5);
-    }
 
-    @DataProvider
-    public Object[][] testData() {
-        int numberOfProducts = nextInt(2, 6);
-        Object[][] products = new Object[numberOfProducts][2];
-
-        for(int i = 0; i < numberOfProducts; i++) {
-            String productName = random(nextInt(5, 11), true, true);
-            double productPrice = (double) round(nextDouble(1, 100) * 100) / 100;
-            products[i][0] = productName;
-            products[i][1] = productPrice;
-        }
-
-        return products;
-    }
-
-    @BeforeTest
-    public void login() {
         wd.get("http://format.com/");
         WebElement logInTab = wait.until(presenceOfElementLocated(By.cssSelector("a[href=\"/login\"]")));
         logInTab.click();
 
         WebElement emailField = wait.until(presenceOfElementLocated(By.cssSelector("#login_form #email")));
-        emailField.sendKeys("rufjtigk+89@gmail.com");
-        wd.findElement(By.cssSelector("#login_form #password")).sendKeys("qweriuyt");
+        emailField.sendKeys(email);
+        wd.findElement(By.cssSelector("#login_form #password")).sendKeys(password);
         wd.findElement(By.cssSelector("#login_form input[type='submit']")).click();
     }
 
-    @Test (dataProvider = "testData")
+    @Test (dataProvider = "testData", dataProviderClass = ProductsGenerator.class)
     public void createProductTest(String productName, double productPrice) {
         WebElement storeTab = wait.until(presenceOfElementLocated(By.cssSelector("a[href=\"/site/store\"]")));
         storeTab.click();
@@ -139,7 +122,7 @@ public class ProductCreationTest {
         }
 
         productsBefore.add(new Product().withId(productsAfter.stream().mapToLong(Product::getId).max().getAsLong()).withName(productName).withPrice(productPrice));
-        Assert.assertEquals(productsBefore, productsAfter);
+        assertEquals(productsBefore, productsAfter);
     }
 
     @Test (dependsOnMethods = "createProductTest")
@@ -180,10 +163,10 @@ public class ProductCreationTest {
             productsNamesLive.add(name);
         }
 
-        Collections.sort(productsNamesCMS);
-        Collections.sort(productsNamesLive);
+        sort(productsNamesCMS);
+        sort(productsNamesLive);
 
-        Assert.assertEquals(productsNamesCMS, productsNamesLive);
+        assertEquals(productsNamesLive, productsNamesCMS);
     }
 
     @AfterTest
