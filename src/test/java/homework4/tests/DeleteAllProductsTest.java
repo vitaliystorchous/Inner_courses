@@ -1,30 +1,25 @@
 package homework4.tests;
 
-import homework4.model.Product;
 import org.openqa.selenium.By;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import java.util.HashSet;
-import java.util.Set;
-
 import static homework4.appmanager.DriverManager.getDriver;
-import static java.lang.Long.parseLong;
 import static org.openqa.selenium.support.ui.ExpectedConditions.elementToBeClickable;
 import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElementLocated;
 
-public class DeleteProductsTest {
+public class DeleteAllProductsTest {
 
     WebDriver wd;
     WebDriverWait wait;
 
-    public DeleteProductsTest() {
+    public DeleteAllProductsTest() {
         wd = getDriver("chrome");
         wd.manage().window().maximize();
         wait = new WebDriverWait(wd, 5);
@@ -69,6 +64,8 @@ public class DeleteProductsTest {
                 System.out.println("No \"Connect to PayPal to Get Started\" modal");
             }
         }
+
+        Assert.assertEquals(wd.findElements(By.cssSelector(".product-list-item")).size(), 0);
     }
 
     @AfterTest

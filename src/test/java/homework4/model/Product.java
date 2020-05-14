@@ -5,6 +5,7 @@ public class Product {
     private long id;
     private String name;
     private double price;
+    private int amount;
 
     public long getId() {
         return id;
@@ -33,6 +34,15 @@ public class Product {
         return this;
     }
 
+    public int getAmount() {
+        return amount;
+    }
+
+    public Product withAmount(int amount) {
+        this.amount = amount;
+        return this;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -42,6 +52,7 @@ public class Product {
 
         if (id != product.id) return false;
         if (Double.compare(product.price, price) != 0) return false;
+        if (amount != product.amount) return false;
         return name != null ? name.equals(product.name) : product.name == null;
     }
 
@@ -53,6 +64,7 @@ public class Product {
         result = 31 * result + (name != null ? name.hashCode() : 0);
         temp = Double.doubleToLongBits(price);
         result = 31 * result + (int) (temp ^ (temp >>> 32));
+        result = 31 * result + amount;
         return result;
     }
 }
