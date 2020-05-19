@@ -2,21 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f848e594-c3f1-473e-82ba-17339c007df0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_aspectj_aspectjweaver_1_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/homework4/listeners/EventHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homework5/appmanager/ApplicationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homework5/appmanager/HelperBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homework5/appmanager/MainpageHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homework5/appmanager/NavigationHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homework5/tests/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homework5/tests/TestSiteViewWithApplitools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/remote.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-homework5.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Sandbox.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework4/appmanager/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework4/appmanager/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework4/dataproviders/ProductsGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework4/dataproviders/ProductsGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework4/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework4/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework4/tests/DeleteProductsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework4/tests/DeleteAllProductsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework4/tests/ProductCreationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework4/tests/ProductCreationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="221" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -45,26 +49,33 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="D:/dependencies/aspectjweaver-1.9.5.jar!/" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="homework5.appmanager" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github repositories\Inner_courses" />
+      <recent name="D:\github repositories\Inner_courses\target" />
+      <recent name="D:\github repositories\Inner_courses\src\test\resources" />
+      <recent name="D:\github repositories\Inner_courses\src\test\java\homework5\appmanager" />
+      <recent name="D:\github repositories\Inner_courses\src\test\resources\drivers" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="homework5.appmanager" />
+      <recent name="homework4" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\github repositories\Inner_courses" />
       <recent name="D:\github repositories\Inner_courses\src\test\resources\drivers" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="homework4" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\github repositories\Inner_courses\src\test\resources\drivers" />
-      <recent name="D:\github repositories\Inner_courses\src\test\resources" />
-    </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/github repositories/Inner_courses/testng.xml">
+  <component name="RunManager" selected="TestNG.TestSiteViewWithApplitools">
     <configuration name="D:/github repositories/Inner_courses/testng.xml (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Inner_courses" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -151,19 +162,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSiteViewWithApplitools" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Inner_courses" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework5.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homework5.tests" />
+      <option name="MAIN_CLASS_NAME" value="homework5.tests.TestSiteViewWithApplitools" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="TestNG.D:/github repositories/Inner_courses/testng.xml" />
       <item itemvalue="TestNG.ProductCreationTest" />
       <item itemvalue="TestNG.D:/github repositories/Inner_courses/testng.xml (1)" />
-      <item itemvalue="TestNG.OneProductCreationTest" />
       <item itemvalue="TestNG.DeleteAllProductsTest" />
+      <item itemvalue="TestNG.TestSiteViewWithApplitools" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestSiteViewWithApplitools" />
         <item itemvalue="TestNG.D:/github repositories/Inner_courses/testng.xml" />
         <item itemvalue="TestNG.DeleteAllProductsTest" />
         <item itemvalue="TestNG.ProductCreationTest" />
-        <item itemvalue="TestNG.OneProductCreationTest" />
         <item itemvalue="TestNG.D:/github repositories/Inner_courses/testng.xml (1)" />
       </list>
     </recent_temporary>
@@ -204,84 +232,99 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="742" y="270" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589346435073" />
+    <state x="669" y="267" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1589867034893">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="669" y="267" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589867034893" />
     <state x="-1039" y="413" width="398" height="266" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1589353973064">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
     <state x="-1039" y="413" width="398" height="266" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589353973064" />
+    <state x="-1110" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589716104042">
+      <screen x="-1680" y="38" width="1680" height="1010" />
+    </state>
+    <state x="-1110" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589716104042" />
     <state x="-1588" y="130" width="1496" height="826" key="DiffContextDialog" timestamp="1589347280952">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
     <state x="-1588" y="130" width="1496" height="826" key="DiffContextDialog/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589347280952" />
-    <state x="677" y="333" key="FileChooserDialogImpl" timestamp="1589346316320">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="-1032" y="309" key="FileChooserDialogImpl" timestamp="1589716080188">
+      <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state x="-1032" y="309" key="FileChooserDialogImpl/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589262975519" />
+    <state x="-1032" y="309" key="FileChooserDialogImpl/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589716080188" />
     <state x="677" y="333" key="FileChooserDialogImpl/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589346316320" />
-    <state width="1637" height="366" key="GridCell.Tab.0.bottom" timestamp="1589438912115">
+    <state width="1637" height="273" key="GridCell.Tab.0.bottom" timestamp="1589869869362">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state width="1637" height="366" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589438912115" />
-    <state width="1877" height="150" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589346842157" />
-    <state width="1637" height="366" key="GridCell.Tab.0.center" timestamp="1589438912114">
+    <state width="1637" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589869869362" />
+    <state width="1877" height="378" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589867244872" />
+    <state width="1637" height="273" key="GridCell.Tab.0.center" timestamp="1589869869362">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state width="1637" height="366" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589438912114" />
-    <state width="1877" height="150" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589346842157" />
-    <state width="1637" height="366" key="GridCell.Tab.0.left" timestamp="1589438912114">
+    <state width="1637" height="273" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589869869362" />
+    <state width="1877" height="378" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589867244871" />
+    <state width="1637" height="273" key="GridCell.Tab.0.left" timestamp="1589869869362">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state width="1637" height="366" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589438912114" />
-    <state width="1877" height="150" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589346842157" />
-    <state width="1637" height="366" key="GridCell.Tab.0.right" timestamp="1589438912115">
+    <state width="1637" height="273" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589869869362" />
+    <state width="1877" height="378" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589867244871" />
+    <state width="1637" height="273" key="GridCell.Tab.0.right" timestamp="1589869869362">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state width="1637" height="366" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589438912115" />
-    <state width="1877" height="150" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589346842157" />
-    <state width="1637" height="283" key="GridCell.Tab.1.bottom" timestamp="1589434273764">
+    <state width="1637" height="273" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589869869362" />
+    <state width="1877" height="378" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589867244871" />
+    <state width="1637" height="273" key="GridCell.Tab.1.bottom" timestamp="1589869869362">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state width="1637" height="283" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589434273764" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589205025227" />
-    <state width="1637" height="283" key="GridCell.Tab.1.center" timestamp="1589434273764">
+    <state width="1637" height="273" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589869869362" />
+    <state width="1877" height="283" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589863804915" />
+    <state width="1637" height="273" key="GridCell.Tab.1.center" timestamp="1589869869362">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state width="1637" height="283" key="GridCell.Tab.1.center/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589434273764" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589205025227" />
-    <state width="1637" height="283" key="GridCell.Tab.1.left" timestamp="1589434273764">
+    <state width="1637" height="273" key="GridCell.Tab.1.center/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589869869362" />
+    <state width="1877" height="283" key="GridCell.Tab.1.center/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589863804915" />
+    <state width="1637" height="273" key="GridCell.Tab.1.left" timestamp="1589869869362">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state width="1637" height="283" key="GridCell.Tab.1.left/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589434273764" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589205025227" />
-    <state width="1637" height="283" key="GridCell.Tab.1.right" timestamp="1589434273764">
+    <state width="1637" height="273" key="GridCell.Tab.1.left/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589869869362" />
+    <state width="1877" height="283" key="GridCell.Tab.1.left/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589863804915" />
+    <state width="1637" height="273" key="GridCell.Tab.1.right" timestamp="1589869869362">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state width="1637" height="283" key="GridCell.Tab.1.right/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589434273764" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589205025227" />
-    <state x="783" y="458" key="ReplaceDuplicatesPrompt" timestamp="1589349735034">
+    <state width="1637" height="273" key="GridCell.Tab.1.right/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589869869362" />
+    <state width="1877" height="283" key="GridCell.Tab.1.right/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589863804915" />
+    <state x="783" y="458" key="ReplaceDuplicatesPrompt" timestamp="1589866944097">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="783" y="458" key="ReplaceDuplicatesPrompt/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589349735034" />
-    <state x="392" y="155" key="SettingsEditor" timestamp="1589346442201">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="783" y="458" key="ReplaceDuplicatesPrompt/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589866944097" />
+    <state x="-1337" y="189" key="SettingsEditor" timestamp="1589714959797">
+      <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state x="-1337" y="189" key="SettingsEditor/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589184881604" />
+    <state x="-1337" y="189" key="SettingsEditor/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589714959797" />
     <state x="392" y="155" key="SettingsEditor/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589346442201" />
-    <state x="-1095" y="377" key="com.intellij.ide.util.TipDialog" timestamp="1589428353073">
+    <state x="-1095" y="377" key="com.intellij.ide.util.TipDialog" timestamp="1589709979125">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state x="-1095" y="377" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589428353073" />
+    <state x="-1095" y="377" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589709979125" />
     <state x="668" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1588944254469" />
     <state x="616" y="479" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1589346419138">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="479" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589346419138" />
-    <state x="-1313" y="210" width="540" height="482" key="extract.method.dialog" timestamp="1589430010191">
-      <screen x="-1680" y="38" width="1680" height="1010" />
+    <state x="419" y="177" width="540" height="482" key="extract.method.dialog" timestamp="1589866917660">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1313" y="210" width="540" height="482" key="extract.method.dialog/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589430010191" />
-    <state x="419" y="177" width="540" height="482" key="extract.method.dialog/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589350648382" />
+    <state x="419" y="177" width="540" height="482" key="extract.method.dialog/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589866917660" />
+    <state x="-1132" y="178" key="refactoring.ChangeSignatureDialog" timestamp="1589868061853">
+      <screen x="-1680" y="38" width="1680" height="1010" />
+    </state>
+    <state x="-1132" y="178" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589868061853" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Inner_courses$TestOneWithApplitools.ic" NAME="TestOneWithApplitools Coverage Results" MODIFIED="1589720021376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>homework5.tests.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/Inner_courses$MyClass.ic" NAME="MyClass Coverage Results" MODIFIED="1588917797299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
