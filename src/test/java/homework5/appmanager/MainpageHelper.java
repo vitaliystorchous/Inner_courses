@@ -2,6 +2,9 @@ package homework5.appmanager;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+
+import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElementLocated;
 
 public class MainpageHelper extends HelperBase {
     public MainpageHelper(WebDriver wd) {
@@ -79,5 +82,14 @@ public class MainpageHelper extends HelperBase {
 
     public boolean isDesktopCartDisplayed(long timeout_millis) {
         return isElementVisible(By.cssSelector("#_desktop_cart"), timeout_millis);
+    }
+
+    public int numOfPopularProducts() {
+        return wd.findElements(By.cssSelector("a.product-thumbnail")).size();
+    }
+
+    public void openProduct(int index) {
+        wd.findElement(By.cssSelector("article.product-miniature:nth-child(" + index + ") .product-thumbnail")).click();
+        wait.until(presenceOfElementLocated(By.cssSelector(".product-information")));
     }
 }

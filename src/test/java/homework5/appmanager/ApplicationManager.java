@@ -34,6 +34,8 @@ public class ApplicationManager {
     private NavigationHelper navigationHelper;
     private MainpageHelper mainpageHelper;
     private String browser;
+    private ProductHelper productHelper;
+    private CartHelper cartHelper;
 
     public ApplicationManager(String browser) {
         this.browser = browser;
@@ -78,6 +80,8 @@ public class ApplicationManager {
         wd.get(properties.getProperty("web.baseUrl"));
         navigationHelper = new NavigationHelper(wd);
         mainpageHelper = new MainpageHelper(wd);
+        productHelper = new ProductHelper(wd);
+        cartHelper = new CartHelper(wd);
     }
 
     public WebDriver getDriver() { return wd;}
@@ -106,5 +110,13 @@ public class ApplicationManager {
         Long width = (Long) ((JavascriptExecutor) wd).executeScript(" return document.documentElement.clientWidth;");
         Long height = (Long) ((JavascriptExecutor) wd).executeScript(" return document.documentElement.clientHeight;");
         return new Dimension(width.intValue(), height.intValue());
+    }
+
+    public ProductHelper product() {
+        return productHelper;
+    }
+
+    public CartHelper cart() {
+        return cartHelper;
     }
 }
