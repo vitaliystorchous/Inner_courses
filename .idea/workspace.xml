@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f848e594-c3f1-473e-82ba-17339c007df0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/homework5/appmanager/CartHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/homework5/appmanager/ProductHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/homework5/tests/TestBuyProductAsGuest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework5/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework5/appmanager/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework5/appmanager/MainpageHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework5/appmanager/MainpageHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework5/appmanager/NavigationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework5/appmanager/NavigationHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework5/appmanager/CartHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework5/appmanager/CartHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng-homework5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng-homework5.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,45 +247,45 @@
     </state>
     <state x="-1032" y="309" key="FileChooserDialogImpl/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589716080188" />
     <state x="677" y="333" key="FileChooserDialogImpl/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589346316320" />
-    <state width="1637" height="273" key="GridCell.Tab.0.bottom" timestamp="1590387445383">
+    <state width="1637" height="378" key="GridCell.Tab.0.bottom" timestamp="1590390123791">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state width="1637" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1590387445383" />
+    <state width="1637" height="378" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1590390123791" />
     <state width="1877" height="378" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589867244872" />
-    <state width="1637" height="273" key="GridCell.Tab.0.center" timestamp="1590387445383">
+    <state width="1637" height="378" key="GridCell.Tab.0.center" timestamp="1590390123791">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state width="1637" height="273" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1590387445383" />
+    <state width="1637" height="378" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1590390123791" />
     <state width="1877" height="378" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589867244871" />
-    <state width="1637" height="273" key="GridCell.Tab.0.left" timestamp="1590387445383">
+    <state width="1637" height="378" key="GridCell.Tab.0.left" timestamp="1590390123791">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state width="1637" height="273" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1590387445383" />
+    <state width="1637" height="378" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1590390123791" />
     <state width="1877" height="378" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589867244871" />
-    <state width="1637" height="273" key="GridCell.Tab.0.right" timestamp="1590387445383">
+    <state width="1637" height="378" key="GridCell.Tab.0.right" timestamp="1590390123791">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state width="1637" height="273" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1590387445383" />
+    <state width="1637" height="378" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1590390123791" />
     <state width="1877" height="378" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589867244871" />
-    <state width="1637" height="273" key="GridCell.Tab.1.bottom" timestamp="1590387445383">
+    <state width="1637" height="273" key="GridCell.Tab.1.bottom" timestamp="1590388256435">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state width="1637" height="273" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1590387445383" />
+    <state width="1637" height="273" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1590388256435" />
     <state width="1877" height="283" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589863804915" />
-    <state width="1637" height="273" key="GridCell.Tab.1.center" timestamp="1590387445383">
+    <state width="1637" height="273" key="GridCell.Tab.1.center" timestamp="1590388256435">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state width="1637" height="273" key="GridCell.Tab.1.center/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1590387445383" />
+    <state width="1637" height="273" key="GridCell.Tab.1.center/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1590388256435" />
     <state width="1877" height="283" key="GridCell.Tab.1.center/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589863804915" />
-    <state width="1637" height="273" key="GridCell.Tab.1.left" timestamp="1590387445383">
+    <state width="1637" height="273" key="GridCell.Tab.1.left" timestamp="1590388256435">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state width="1637" height="273" key="GridCell.Tab.1.left/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1590387445383" />
+    <state width="1637" height="273" key="GridCell.Tab.1.left/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1590388256435" />
     <state width="1877" height="283" key="GridCell.Tab.1.left/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589863804915" />
-    <state width="1637" height="273" key="GridCell.Tab.1.right" timestamp="1590387445383">
+    <state width="1637" height="273" key="GridCell.Tab.1.right" timestamp="1590388256435">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state width="1637" height="273" key="GridCell.Tab.1.right/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1590387445383" />
+    <state width="1637" height="273" key="GridCell.Tab.1.right/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1590388256435" />
     <state width="1877" height="283" key="GridCell.Tab.1.right/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589863804915" />
     <state x="783" y="458" key="ReplaceDuplicatesPrompt" timestamp="1589866944097">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -317,17 +314,6 @@
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
     <state x="-1132" y="178" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589868061853" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/homework5/appmanager/CartHelper.java</url>
-          <line>85</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Inner_courses$TestOneWithApplitools.ic" NAME="TestOneWithApplitools Coverage Results" MODIFIED="1589720021376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

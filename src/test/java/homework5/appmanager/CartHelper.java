@@ -1,10 +1,7 @@
 package homework5.appmanager;
 
 import org.apache.commons.lang3.RandomUtils;
-import org.openqa.selenium.By;
-import org.openqa.selenium.ElementClickInterceptedException;
-import org.openqa.selenium.TimeoutException;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import static org.apache.commons.lang3.RandomStringUtils.random;
@@ -82,18 +79,13 @@ public class CartHelper extends HelperBase {
     }
 
     public boolean isOrderConfirmed() {
-        switch(wd.findElement(By.cssSelector(".language-selector span")).getAttribute("innerText")) {
-            case "Русский": {
-                if(wd.findElement(By.cssSelector("#content-hook_order_confirmation .card-title"))
-                        .getAttribute("innerText").toLowerCase().contains("ваш заказ подтверждён")) { return true; }
-                break;
-            }
-            case "Українська": {
-                if(wd.findElement(By.cssSelector("#content-hook_order_confirmation .card-title"))
-                        .getAttribute("innerText").toLowerCase().contains("ваше замовлення підтверджено")) { return true; }
-                break;
-            }
+        try {
+            wd.findElement(By.cssSelector("#content-hook_order_confirmation"));
+            wd.findElement(By.cssSelector("#content"));
+            wd.findElement(By.cssSelector("#content-hook_payment_return"));
+            return true;
+        } catch (NoSuchElementException ex) {
+            return false;
         }
-        return false;
     }
 }

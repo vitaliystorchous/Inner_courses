@@ -5,6 +5,7 @@
     <test name="test A" preserve-order="true">
         <classes>
             <class name="homework5.tests.TestSiteViewWithApplitools"/>
+            <class name="homework5.tests.TestBuyProductAsGuest"></class>
         </classes>
     </test>
 </suite>
