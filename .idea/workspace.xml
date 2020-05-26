@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f848e594-c3f1-473e-82ba-17339c007df0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/homework5/listeners/EventHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework5/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework5/appmanager/ApplicationManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/homework5/appmanager/CartHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework5/appmanager/CartHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng-homework5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng-homework5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework5/tests/TestBuyProductAsGuest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework5/tests/TestBuyProductAsGuest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/drivers/msedgedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/drivers/msedgedriver.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +52,9 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="homework5.appmanager" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\github repositories\Inner_courses" />
+      <recent name="D:\github repositories\Inner_courses\src\test\resources\drivers" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\github repositories\Inner_courses" />
@@ -60,12 +64,12 @@
       <recent name="D:\github repositories\Inner_courses\src\test\resources\drivers" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="homework5.listeners" />
       <recent name="homework5.appmanager" />
       <recent name="homework4" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\github repositories\Inner_courses" />
-      <recent name="D:\github repositories\Inner_courses\src\test\resources\drivers" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="homework5.appmanager" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.TestBuyProductAsGuest">
@@ -174,6 +178,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.ProductCreationTest" />
       <item itemvalue="TestNG.D:/github repositories/Inner_courses/testng.xml" />
       <item itemvalue="TestNG.DeleteAllProductsTest" />
       <item itemvalue="TestNG.TestSiteViewWithApplitools" />
@@ -247,45 +252,45 @@
     </state>
     <state x="-1032" y="309" key="FileChooserDialogImpl/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589716080188" />
     <state x="677" y="333" key="FileChooserDialogImpl/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589346316320" />
-    <state width="1637" height="378" key="GridCell.Tab.0.bottom" timestamp="1590390123791">
+    <state width="1637" height="273" key="GridCell.Tab.0.bottom" timestamp="1590474072192">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state width="1637" height="378" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1590390123791" />
+    <state width="1637" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1590474072192" />
     <state width="1877" height="378" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589867244872" />
-    <state width="1637" height="378" key="GridCell.Tab.0.center" timestamp="1590390123791">
+    <state width="1637" height="273" key="GridCell.Tab.0.center" timestamp="1590474072192">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state width="1637" height="378" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1590390123791" />
+    <state width="1637" height="273" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1590474072192" />
     <state width="1877" height="378" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589867244871" />
-    <state width="1637" height="378" key="GridCell.Tab.0.left" timestamp="1590390123791">
+    <state width="1637" height="273" key="GridCell.Tab.0.left" timestamp="1590474072191">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state width="1637" height="378" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1590390123791" />
+    <state width="1637" height="273" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1590474072191" />
     <state width="1877" height="378" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589867244871" />
-    <state width="1637" height="378" key="GridCell.Tab.0.right" timestamp="1590390123791">
+    <state width="1637" height="273" key="GridCell.Tab.0.right" timestamp="1590474072192">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state width="1637" height="378" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1590390123791" />
+    <state width="1637" height="273" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1590474072192" />
     <state width="1877" height="378" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589867244871" />
-    <state width="1637" height="273" key="GridCell.Tab.1.bottom" timestamp="1590388256435">
+    <state width="1637" height="273" key="GridCell.Tab.1.bottom" timestamp="1590474072192">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state width="1637" height="273" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1590388256435" />
+    <state width="1637" height="273" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1590474072192" />
     <state width="1877" height="283" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589863804915" />
-    <state width="1637" height="273" key="GridCell.Tab.1.center" timestamp="1590388256435">
+    <state width="1637" height="273" key="GridCell.Tab.1.center" timestamp="1590474072192">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state width="1637" height="273" key="GridCell.Tab.1.center/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1590388256435" />
+    <state width="1637" height="273" key="GridCell.Tab.1.center/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1590474072192" />
     <state width="1877" height="283" key="GridCell.Tab.1.center/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589863804915" />
-    <state width="1637" height="273" key="GridCell.Tab.1.left" timestamp="1590388256435">
+    <state width="1637" height="273" key="GridCell.Tab.1.left" timestamp="1590474072192">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state width="1637" height="273" key="GridCell.Tab.1.left/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1590388256435" />
+    <state width="1637" height="273" key="GridCell.Tab.1.left/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1590474072192" />
     <state width="1877" height="283" key="GridCell.Tab.1.left/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589863804915" />
-    <state width="1637" height="273" key="GridCell.Tab.1.right" timestamp="1590388256435">
+    <state width="1637" height="273" key="GridCell.Tab.1.right" timestamp="1590474072192">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state width="1637" height="273" key="GridCell.Tab.1.right/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1590388256435" />
+    <state width="1637" height="273" key="GridCell.Tab.1.right/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1590474072192" />
     <state width="1877" height="283" key="GridCell.Tab.1.right/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589863804915" />
     <state x="783" y="458" key="ReplaceDuplicatesPrompt" timestamp="1589866944097">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -296,10 +301,10 @@
     </state>
     <state x="-1337" y="189" key="SettingsEditor/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589714959797" />
     <state x="392" y="155" key="SettingsEditor/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589346442201" />
-    <state x="-1095" y="377" key="com.intellij.ide.util.TipDialog" timestamp="1590379615750">
+    <state x="-1095" y="377" key="com.intellij.ide.util.TipDialog" timestamp="1590474141060">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state x="-1095" y="377" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1590379615750" />
+    <state x="-1095" y="377" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1590474141060" />
     <state x="668" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1588944254469" />
     <state x="616" y="479" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1589346419138">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -314,6 +319,17 @@
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
     <state x="-1132" y="178" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589868061853" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/homework5/appmanager/CartHelper.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Inner_courses$TestOneWithApplitools.ic" NAME="TestOneWithApplitools Coverage Results" MODIFIED="1589720021376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

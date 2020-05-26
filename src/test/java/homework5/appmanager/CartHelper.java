@@ -39,22 +39,33 @@ public class CartHelper extends HelperBase {
         wd.findElement(By.cssSelector("button[data-link-action=register-new-customer]")).click();
         wait.until(visibilityOfElementLocated(By.cssSelector("#checkout-personal-information-step .done")));
 
-        if(wd.findElement(By.cssSelector("input[name=address1]")).isDisplayed()) {
-            String address = random(nextInt(5, 11), true, false);
-            wd.findElement(By.cssSelector("input[name=address1]")).click();
-            wd.findElement(By.cssSelector("input[name=address1]")).sendKeys(address);
+        for (int i = 0; i < 3; i++) {
+            try {
+                if (isElementPresent(By.cssSelector("input[name=address1]"))) {
+                    String address = random(nextInt(5, 11), true, false);
+                    wd.findElement(By.cssSelector("input[name=address1]")).click();
+                    wd.findElement(By.cssSelector("input[name=address1]")).clear();
+                    wd.findElement(By.cssSelector("input[name=address1]")).sendKeys(address);
 
-            String postalCode = random(nextInt(5, 6), false, true);
-            wd.findElement(By.cssSelector("input[name=postcode]")).click();
-            wd.findElement(By.cssSelector("input[name=postcode]")).sendKeys(postalCode);
+                    String postalCode = random(nextInt(5, 6), false, true);
+                    wd.findElement(By.cssSelector("input[name=postcode]")).click();
+                    wd.findElement(By.cssSelector("input[name=postcode]")).clear();
+                    wd.findElement(By.cssSelector("input[name=postcode]")).sendKeys(postalCode);
 
-            String city = random(nextInt(5, 11), true, false);
-            wd.findElement(By.cssSelector("input[name=city]")).click();
-            wd.findElement(By.cssSelector("input[name=city]")).sendKeys(city);
+                    String city = random(nextInt(5, 11), true, false);
+                    wd.findElement(By.cssSelector("input[name=city]")).click();
+                    wd.findElement(By.cssSelector("input[name=city]")).clear();
+                    wd.findElement(By.cssSelector("input[name=city]")).sendKeys(city);
+                }
+
+                wait.until(elementToBeClickable(By.cssSelector("button[name=confirm-addresses]"))).click();
+                wait.until(visibilityOfElementLocated(By.cssSelector("#checkout-addresses-step .done")));
+                break;
+            } catch (TimeoutException ex) {
+                if (i == 2) { throw ex; }
+            }
         }
 
-        wait.until(elementToBeClickable(By.cssSelector("button[name=confirm-addresses]"))).click();
-        wait.until(visibilityOfElementLocated(By.cssSelector("#checkout-addresses-step .done")));
 
         int deliveryMethod = RandomUtils.nextInt(1, 3);
         int tries = 3;
@@ -87,5 +98,9 @@ public class CartHelper extends HelperBase {
         } catch (NoSuchElementException ex) {
             return false;
         }
+    }
+
+    public String getConfirmationMessage() {
+        return wd.findElement(By.cssSelector("#content-hook_order_confirmation .card-title")).getAttribute("innerText").substring(1).toLowerCase();
     }
 }

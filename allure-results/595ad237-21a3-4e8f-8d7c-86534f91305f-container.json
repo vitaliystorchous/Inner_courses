@@ -1,1 +1,0 @@
-{"uuid":"595ad237-21a3-4e8f-8d7c-86534f91305f","name":"Inner_courses","children":["00919aca-ab6c-45c1-b857-4c5b191ae340"],"befores":[{"name":"ensurePreconditions","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1590388010280,"stop":1590388011048}],"afters":[],"links":[],"start":1590388010277,"stop":1590388041062}

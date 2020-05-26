@@ -5,6 +5,7 @@ import com.applitools.eyes.EyesRunner;
 import com.applitools.eyes.selenium.ClassicRunner;
 import com.applitools.eyes.selenium.Configuration;
 import com.applitools.eyes.selenium.Eyes;
+import homework4.listeners.EventHandler;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -15,6 +16,7 @@ import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.remote.BrowserType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 import java.io.File;
 import java.io.FileReader;
@@ -70,9 +72,8 @@ public class ApplicationManager {
         } else {
             DesiredCapabilities capabilities = new DesiredCapabilities();
             capabilities.setBrowserName(browser);
-            capabilities.setPlatform(Platform.fromString(System.getProperty("platform", "all")));
+            capabilities.setPlatform(Platform.fromString(System.getProperty("platform", "ANY")));
             wd = new RemoteWebDriver(new URL(properties.getProperty("selenium.server")), capabilities);
-
         }
 
         wd.manage().window().maximize();
