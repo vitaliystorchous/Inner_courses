@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f848e594-c3f1-473e-82ba-17339c007df0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/homework5/listeners/EventHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework5/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework5/appmanager/ApplicationManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/homework5/appmanager/CartHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework5/appmanager/CartHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework5/tests/TestBuyProductAsGuest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework5/tests/TestBuyProductAsGuest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/drivers/msedgedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/drivers/msedgedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng-homework4.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -301,10 +297,10 @@
     </state>
     <state x="-1337" y="189" key="SettingsEditor/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589714959797" />
     <state x="392" y="155" key="SettingsEditor/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589346442201" />
-    <state x="-1095" y="377" key="com.intellij.ide.util.TipDialog" timestamp="1590474141060">
+    <state x="-1095" y="377" key="com.intellij.ide.util.TipDialog" timestamp="1590552263990">
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
-    <state x="-1095" y="377" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1590474141060" />
+    <state x="-1095" y="377" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1590552263990" />
     <state x="668" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1588944254469" />
     <state x="616" y="479" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1589346419138">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -319,17 +315,6 @@
       <screen x="-1680" y="38" width="1680" height="1010" />
     </state>
     <state x="-1132" y="178" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589868061853" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/homework5/appmanager/CartHelper.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Inner_courses$TestOneWithApplitools.ic" NAME="TestOneWithApplitools Coverage Results" MODIFIED="1589720021376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

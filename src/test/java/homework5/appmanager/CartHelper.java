@@ -74,7 +74,7 @@ public class CartHelper extends HelperBase {
                 wd.findElement(By.cssSelector(".delivery-option:nth-child(" + deliveryMethod + ") input")).click();
                 break;
             } catch (ElementClickInterceptedException ex) {
-                if(ex.getLocalizedMessage().contains("Other element would receive the click: <span></span>")) { break; }
+                if(ex.getLocalizedMessage().contains("element") && ex.getLocalizedMessage().contains("<span>")) { break; }
                 if (--tries == 0) { throw ex; }
             }
         }
