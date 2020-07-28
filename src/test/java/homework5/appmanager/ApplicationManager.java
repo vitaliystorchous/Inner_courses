@@ -49,25 +49,45 @@ public class ApplicationManager {
         properties.load(new FileReader(new File(String.format("src/test/resources/%s.properties", target))));
 
         if ("".equals(properties.getProperty("selenium.server"))) {
-            if (browser.equals(BrowserType.CHROME)) {
-                wd = new ChromeDriver();
-            } else if (browser.equals(BrowserType.FIREFOX)) {
-                wd = new FirefoxDriver();
-            } else if (browser.equals(BrowserType.IE)) {
-                wd = new InternetExplorerDriver();
-            } else if (browser.equals(BrowserType.EDGE)) {
-                File file = new File("src/test/resources/drivers/msedgedriver.exe");
-                System.setProperty("webdriver.edge.driver", file.getAbsolutePath());
-                wd = new EdgeDriver();
-            } else if (browser.equals(BrowserType.OPERA_BLINK)) {
-                wd = new OperaDriver();
-            } else if (browser.equals("mobile")) {
-                Map<String, String> mobileEmulation = new HashMap<>();
-                mobileEmulation.put("deviceName", System.getProperty("deviceName", "iPhone 6"));
+            switch (browser) {
+                case BrowserType.CHROME: {
+                    File file = new File("src/test/resources/drivers/chromedriver.exe");
+                    System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
+                    wd = new EventFiringWebDriver(new ChromeDriver());
+                    break;
+                }
+                case BrowserType.FIREFOX: {
+                    File file = new File("src/test/resources/drivers/geckodriver.exe");
+                    System.setProperty("webdriver.gecko.driver", file.getAbsolutePath());
+                    wd = new EventFiringWebDriver(new FirefoxDriver());
+                    break;
+                }
+                case BrowserType.IE: {
+                    File file = new File("src/test/resources/drivers/IEDriverServer.exe");
+                    System.setProperty("webdriver.ie.driver", file.getAbsolutePath());
+                    wd = new EventFiringWebDriver(new InternetExplorerDriver());
+                    break;
+                }
+                case BrowserType.EDGE: {
+                    File file = new File("src/test/resources/drivers/msedgedriver.exe");
+                    System.setProperty("webdriver.edge.driver", file.getAbsolutePath());
+                    wd = new EventFiringWebDriver(new EdgeDriver());
+                    break;
+                }
+                case BrowserType.OPERA_BLINK: {
+                    File file = new File("src/test/resources/drivers/operadriver.exe");
+                    System.setProperty("webdriver.opera.driver", file.getAbsolutePath());
+                    wd = new EventFiringWebDriver(new OperaDriver());
+                    break;
+                }
+                case "mobile":
+                    Map<String, String> mobileEmulation = new HashMap<>();
+                    mobileEmulation.put("deviceName", System.getProperty("deviceName", "iPhone 6"));
 
-                ChromeOptions chromeOptions = new ChromeOptions();
-                chromeOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
-                wd = new ChromeDriver(chromeOptions);
+                    ChromeOptions chromeOptions = new ChromeOptions();
+                    chromeOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
+                    wd = new EventFiringWebDriver(new ChromeDriver(chromeOptions));
+                    break;
             }
         } else {
             DesiredCapabilities capabilities = new DesiredCapabilities();

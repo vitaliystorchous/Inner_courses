@@ -16,3 +16,5 @@ README.md
 README.md
 .idea/uiDesigner.xml
 .idea/workspace.xml
+/.idea/
+/allure-results/

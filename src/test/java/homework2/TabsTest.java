@@ -7,6 +7,8 @@ import org.openqa.selenium.interactions.Actions;
 
 public class TabsTest {
 
+    //данный тест не запуститься так как он был написан для сайта (модуль компетенции), где использовалась
+    //конфиденциальная информация, по этому пришлось эту информацию удалить перед переносом кода проекта в гит хаб
     public static void main(String[] args) throws InterruptedException {
         WebDriver wd = getDriver();
         Actions actions = new Actions(wd);

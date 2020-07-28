@@ -1,10 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f848e594-c3f1-473e-82ba-17339c007df0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/drivers/operadriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework2/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework2/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework2/LogoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework2/LogoutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework2/TabsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework2/TabsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework4/tests/DeleteAllProductsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework4/tests/DeleteAllProductsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework5/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework5/appmanager/ApplicationManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/homework5/appmanager/CartHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework5/appmanager/CartHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng-homework4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework5/tests/TestBuyProductAsGuest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework5/tests/TestBuyProductAsGuest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/drivers/IEDriverServer.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/drivers/IEDriverServer.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/drivers/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/drivers/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/drivers/msedgedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/drivers/msedgedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/drivers/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/drivers/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng-homework4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng-homework4.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +60,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -38,6 +67,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
@@ -68,18 +98,47 @@
       <recent name="homework5.appmanager" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestBuyProductAsGuest">
-    <configuration name="D:/github repositories/Inner_courses/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.D:/GitHub_repositories/Inner_courses/testng-homework5.xml">
+    <configuration name="AddingToCartTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework3.AddingToCartTest" />
       <module name="Inner_courses" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework2.LoginTest" />
+      <module name="Inner_courses" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/GitHub_repositories/Inner_courses/testng-homework4.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Inner_courses" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-homework4.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/GitHub_repositories/Inner_courses/testng-homework5.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Inner_courses" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-homework5.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -103,91 +162,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductCreationTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Inner_courses" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework4.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="homework4.tests" />
-      <option name="MAIN_CLASS_NAME" value="homework4.tests.ProductCreationTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestBuyProductAsGuest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Inner_courses" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework5.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="homework5.tests" />
-      <option name="MAIN_CLASS_NAME" value="homework5.tests.TestBuyProductAsGuest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestBuyProductAsGuest.buyProductTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Inner_courses" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework5.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="homework5.tests" />
-      <option name="MAIN_CLASS_NAME" value="homework5.tests.TestBuyProductAsGuest" />
-      <option name="METHOD_NAME" value="buyProductTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="0" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSiteViewWithApplitools" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Inner_courses" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework5.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="homework5.tests" />
-      <option name="MAIN_CLASS_NAME" value="homework5.tests.TestSiteViewWithApplitools" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="TestNG.ProductCreationTest" />
-      <item itemvalue="TestNG.D:/github repositories/Inner_courses/testng.xml" />
+      <item itemvalue="Application.LoginTest" />
+      <item itemvalue="Application.AddingToCartTest" />
+      <item itemvalue="TestNG.D:/GitHub_repositories/Inner_courses/testng-homework4.xml" />
       <item itemvalue="TestNG.DeleteAllProductsTest" />
-      <item itemvalue="TestNG.TestSiteViewWithApplitools" />
-      <item itemvalue="TestNG.TestBuyProductAsGuest" />
-      <item itemvalue="TestNG.TestBuyProductAsGuest.buyProductTest" />
+      <item itemvalue="TestNG.D:/GitHub_repositories/Inner_courses/testng-homework5.xml" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestBuyProductAsGuest" />
-        <item itemvalue="TestNG.TestBuyProductAsGuest.buyProductTest" />
-        <item itemvalue="TestNG.TestSiteViewWithApplitools" />
-        <item itemvalue="TestNG.D:/github repositories/Inner_courses/testng.xml" />
+        <item itemvalue="TestNG.D:/GitHub_repositories/Inner_courses/testng-homework5.xml" />
         <item itemvalue="TestNG.DeleteAllProductsTest" />
+        <item itemvalue="TestNG.D:/GitHub_repositories/Inner_courses/testng-homework4.xml" />
+        <item itemvalue="Application.AddingToCartTest" />
+        <item itemvalue="Application.LoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -203,6 +191,17 @@
       <updated>1588832037881</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="-1318" y="212" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589261554195">
@@ -248,24 +247,28 @@
     </state>
     <state x="-1032" y="309" key="FileChooserDialogImpl/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589716080188" />
     <state x="677" y="333" key="FileChooserDialogImpl/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589346316320" />
-    <state width="1637" height="273" key="GridCell.Tab.0.bottom" timestamp="1590474072192">
-      <screen x="-1680" y="38" width="1680" height="1010" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1595971264833">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595971264833" />
     <state width="1637" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1590474072192" />
     <state width="1877" height="378" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589867244872" />
-    <state width="1637" height="273" key="GridCell.Tab.0.center" timestamp="1590474072192">
-      <screen x="-1680" y="38" width="1680" height="1010" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1595971264833">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595971264833" />
     <state width="1637" height="273" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1590474072192" />
     <state width="1877" height="378" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589867244871" />
-    <state width="1637" height="273" key="GridCell.Tab.0.left" timestamp="1590474072191">
-      <screen x="-1680" y="38" width="1680" height="1010" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1595971264833">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595971264833" />
     <state width="1637" height="273" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1590474072191" />
     <state width="1877" height="378" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589867244871" />
-    <state width="1637" height="273" key="GridCell.Tab.0.right" timestamp="1590474072192">
-      <screen x="-1680" y="38" width="1680" height="1010" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1595971264833">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595971264833" />
     <state width="1637" height="273" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1590474072192" />
     <state width="1877" height="378" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.38.1680.1010@0.0.1920.1040" timestamp="1589867244871" />
     <state width="1637" height="273" key="GridCell.Tab.1.bottom" timestamp="1590474072192">
@@ -317,9 +320,9 @@
     <state x="-1132" y="178" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/-1680.38.1680.1010@-1680.38.1680.1010" timestamp="1589868061853" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Inner_courses$MyClass.ic" NAME="MyClass Coverage Results" MODIFIED="1588917797299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Inner_courses$TestOneWithApplitools.ic" NAME="TestOneWithApplitools Coverage Results" MODIFIED="1589720021376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>homework5.tests.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Inner_courses$MyClass.ic" NAME="MyClass Coverage Results" MODIFIED="1588917797299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

@@ -14,6 +14,7 @@ public class CartHelper extends HelperBase {
     }
 
     public void openOrderingForm() {
+        //на этом степе тест часто падает из-за бага в приложении - не добавляеться товар в корзину
         wait.until(elementToBeClickable(By.cssSelector("a.btn-primary"))).click();
         wait.until(presenceOfElementLocated(By.cssSelector("#checkout-personal-information-step")));
     }

@@ -26,6 +26,6 @@ public class TestBuyProductAsGuest extends TestBase {
         app.cart().openOrderingForm();
         app.cart().submitFormWithRandomValues();
         assertTrue(app.cart().isOrderConfirmed(), "Order is not confirmed");
-        assertEquals(app.cart().getConfirmationMessage(), "ваш заказ подтверждён", "Order confirmation message is not expected");
+        assertEquals(app.cart().getConfirmationMessage(), "ваше замовлення підтверджено", "Order confirmation message is not expected");
     }
 }

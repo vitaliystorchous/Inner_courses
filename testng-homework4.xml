@@ -4,7 +4,10 @@
 
     <test name="test1-chrome" preserve-order="true">
         <parameter name="browser" value="chrome"></parameter>
-        <parameter name="email"  value="rufjtigk+89@gmail.com"/>
+        <!--для теста использовался триальный 14-дневный аккаунт. по истечению этого периода нужно создать
+        новый аккаут и внести сюда логин...-->
+        <parameter name="email"  value="rufjtigk+100@gmail.com"/>
+        <!--... а сюда пароль-->
         <parameter name="password" value="qweriuyt"/>
         <classes>
             <class name="homework4.tests.ProductCreationTest">
@@ -18,7 +21,10 @@
 
     <test name="test1-firefox" preserve-order="true">
         <parameter name="browser" value="firefox"></parameter>
-        <parameter name="email"  value="rufjtigk+89@gmail.com"/>
+        <!--для теста использовался триальный 14-дневный аккаунт. по истечению этого периода нужно создать
+        новый аккаут и внести сюда логин...-->
+        <parameter name="email"  value="rufjtigk+100@gmail.com"/>
+        <!--... а сюда пароль-->
         <parameter name="password" value="qweriuyt"/>
         <classes>
             <class name="homework4.tests.ProductCreationTest">
@@ -32,7 +38,10 @@
 
     <test name="test1-edge" preserve-order="true">
         <parameter name="browser" value="edge"></parameter>
-        <parameter name="email"  value="rufjtigk+89@gmail.com"/>
+        <!--для теста использовался триальный 14-дневный аккаунт. по истечению этого периода нужно создать
+        новый аккаут и внести сюда логин...-->
+        <parameter name="email"  value="rufjtigk+100@gmail.com"/>
+        <!--... а сюда пароль-->
         <parameter name="password" value="qweriuyt"/>
         <classes>
             <class name="homework4.tests.ProductCreationTest">

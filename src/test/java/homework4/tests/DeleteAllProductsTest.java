@@ -32,7 +32,10 @@ public class DeleteAllProductsTest {
         logInTab.click();
 
         WebElement emailField = wait.until(presenceOfElementLocated(By.cssSelector("#login_form #email")));
-        emailField.sendKeys("rufjtigk+89@gmail.com");
+        //для теста использовался триальный 14-дневный аккаунт. по истечению этого периода нужно создать
+        //новый аккаут и внести сюда логин...
+        emailField.sendKeys("rufjtigk+100@gmail.com");
+        //... а сюда пароль
         wd.findElement(By.cssSelector("#login_form #password")).sendKeys("qweriuyt");
         wd.findElement(By.cssSelector("#login_form input[type='submit']")).click();
     }
